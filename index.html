@@ -2,7 +2,11 @@
 <head>
 
 
-
+<style>
+body {
+  background-image: url('background_bweb.png');
+}
+</style>
    
 	
 
@@ -13,18 +17,5 @@
 </head>
 <body>
 
-<script>
-  window.watsonAssistantChatOptions = {
-      integrationID: "06328347-0439-4d9a-b60d-9738242fa1c9", // The ID of this integration.
-      region: "us-east", // The region your integration is hosted in.
-      serviceInstanceID: "a2f264d0-62db-40f2-bd9f-22d4185f7e48", // The ID of your service instance.
-      onLoad: function(instance) { instance.render(); }
-    };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
-    document.head.appendChild(t);
-  });
-</script>
 </body>
 </html>
