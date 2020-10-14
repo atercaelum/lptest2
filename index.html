@@ -20,7 +20,7 @@ function processThis(data, eventInfo){
 }
 
 // Use the above "processThis" callback to print event data and info to the console
-lpTag.events.bind("lp_sdes", "VAR_ADDED", processThis);
+lpTag.events.bind("conversationInfo", "lpUnifiedWindow", processThis);
 
 
 </script>
